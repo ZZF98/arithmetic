@@ -32,5 +32,14 @@
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
       <option name="myAdditionalJavadocTags" value="date" />
     </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="python_arithmetic.quick_sort.print" />
+          <option value="python_arithmetic.quick_sort.len" />
+        </list>
+      </option>
+    </inspection_tool>
   </profile>
 </component>
